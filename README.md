@@ -72,6 +72,34 @@ This will start the face mask detection system using your webcam as the input so
 
 3. Press 'q' to quit the system. 
 
+## Training
+
+If you want to tran the face mask detection model on your own dataset, you can follow these steps: 
+
+1. Prepare your dataset with two classes: "With Mask" and "Without Mask". The dataset should be organized into separate directories for each class. 
+
+2. Update the `config.py` file to specify the paths to your dataset and other configuration settings. 
+
+3. Run the training script: 
+```python train_mask_detector.py```
+This will train the face mask detection model using the specified dataset and save the trained model to the disk. 
+
+4. Once training is complete, you can use the trained model for face mask detection by running the `detect_mask.py` script. 
+
+## Dataset
+
+The dataset used to train the face mask detection model is not included in this repository. You can use your own dataset or find suitable datasets from public sources. Ensure that your dataset contains a sufficient nuber of images for both "With Mask" and "Without Mask" classes to achieve good performance. 
+
+## Model 
+
+The face mask detection model is based on a deep neural network architecture. It is trained using the TensorFlow and Keras frameworks.
+The model takes an input image and predicts whether the person in the image is wearing a face mask or not. 
+
+## Results 
+
+The face mask detection system achieves high accuracy on the test dataset. The performance may vary depending on the quality and diversity of the training dataset. It is recommended to train the model on the large and representative dataset for optimal results. 
+
+
 ## Licence
 
 This repository is release under MIT Licence. See [LICENCE](LICENCE) for more details. 
