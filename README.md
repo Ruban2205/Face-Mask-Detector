@@ -32,20 +32,45 @@ Three python scripts are:
 - Easy to use and integrate into existing systems
 - Supports both image and video input 
 
+## Requirements
 
-## Languages and Tools used 
+To run the face mask detector, you need to have the following dependencies installed: 
 
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://github.com/Ruban2205/Face-Mask-Detector)
 [![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
-[![NumPY](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
 [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=whit)](https://github.com/Ruban2205/Face-Mask-Detector)
-[![SciKitLearn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
 
-[![Pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
+## Installation 
 
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
+1. Clone this repository: 
+```
+git clone https://github.com/Ruban2205/Face-Mask-Detector.git
+```
 
+2. Change into the project directory: 
+```
+cd Face-Mask-Detector
+```
+
+3. Install the required dependencies: 
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+To use the face mask detector, Follow these steps: 
+
+1. Run the detection script: 
+```
+python detect_mask.py
+```
+This will start the face mask detection system using your webcam as the input source. 
+
+2. The system will display the live video feed with bounding boxes around detected faces. It will also label each face as "With Mask" or "Without Mask" based on the prediction. 
+
+3. Press 'q' to quit the system. 
 
 ## Licence
 
