@@ -99,12 +99,31 @@ The model takes an input image and predicts whether the person in the image is w
 
 The face mask detection system achieves high accuracy on the test dataset. The performance may vary depending on the quality and diversity of the training dataset. It is recommended to train the model on the large and representative dataset for optimal results. 
 
+## Contributing
+
+Contributions to the Face Mask Detetor project are welcome and encouraged. If you want to contribute, please follow these steps: 
+
+1. Fork the repository and create your own branch. 
+2. Make the desired changes and additions. 
+3. Test your changes thoroughly. 
+4. Submit a pull request describing the changes you made. 
+
+Please ensure that your contributions align with the project's codeing standards, maintain code quality, and provide clear documentation when necessary. 
 
 ## Licence
 
-This repository is release under MIT Licence. See [LICENCE](LICENCE) for more details. 
+The Face Mask Detector project is licensed under the [MIT License](/LICENSE). You are free to use, modify, and distribute the code for personal and commerical purposes. See the [LICENSE](/LICENSE) file for more details. 
 
 ## Contact
+
+If you have any questions, suggestions, or concerns about the Face Mask Detector project, please feel free to reach out to me. 
+
+You can Contact me at: 
+
+- Email: [info@rubangino.in](https://mailto:info@rubangino.in/)
+- GitHub Issues: [https://github.com/Ruban2205/Face-Mask-Detector/issues](https://github.com/Ruban2205/Face-Mask-Detector/issues)
+
+I appreciate your feedback and contributions! 
 
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://rubangino.in/)
 [![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@rubangino.in)
