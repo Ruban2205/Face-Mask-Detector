@@ -1,4 +1,4 @@
-# Face-Mask-Detector
+# 💡 Face-Mask-Detector
 
 A Face Mask detector is a python project developed with some Machine Learning libraries.
 
@@ -7,9 +7,7 @@ Given the trained COVID-19 face mask detector, we’ll proceed to implement two 
 - Detect COVID-19 face masks in images
 - Detect face masks in real-time video streams
 
-This repository contains code and resources for a face mask detection system. This system is built using deep learning techniques and is capable of detecting whether a person is wearing a face marsk or not in real-time
-
-## Introduction 
+This repository contains code and resources for a face mask detection system. This system is built using deep learning techniques and is capable of detecting whether a person is wearing a face marsk or not in real-time.
 
 The Face Mask Detector is a computer vision system that can identify whether a person is wearing a facemask or not. It utilizes deep learning techniques to process images and make predictions in real-time. The system can be useful in various applications such as public safety, healthcare, and security. 
 
@@ -25,14 +23,14 @@ Three python scripts are:
 - ```detect_mask_image.py```: Performs face mask detection in static images
 - ```detect_mask_video.py```: Using your webcam, this script applies face mask detection to every frame in the stream
 
-## Features 
+## ✨ Features 
 
 - Real-time face mask detection 
 - High accurace and performance 
 - Easy to use and integrate into existing systems
 - Supports both image and video input 
 
-## Requirements
+## 📋 Requirements
 
 To run the face mask detector, you need to have the following dependencies installed: 
 
@@ -41,7 +39,7 @@ To run the face mask detector, you need to have the following dependencies insta
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/Ruban2205/Face-Mask-Detector)
 [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=whit)](https://github.com/Ruban2205/Face-Mask-Detector)
 
-## Installation 
+## 🚀 Installation 
 
 1. Clone this repository: 
 ```
@@ -58,7 +56,7 @@ cd Face-Mask-Detector
 pip install -r requirements.txt
 ```
 
-## Usage
+## 🎯 Usage
 
 To use the face mask detector, Follow these steps: 
 
@@ -72,7 +70,7 @@ This will start the face mask detection system using your webcam as the input so
 
 3. Press 'q' to quit the system. 
 
-## Training
+## 📖 Training
 
 If you want to tran the face mask detection model on your own dataset, you can follow these steps: 
 
@@ -86,20 +84,20 @@ This will train the face mask detection model using the specified dataset and sa
 
 4. Once training is complete, you can use the trained model for face mask detection by running the `detect_mask.py` script. 
 
-## Dataset
+## 📂 Dataset
 
 The dataset used to train the face mask detection model is not included in this repository. You can use your own dataset or find suitable datasets from public sources. Ensure that your dataset contains a sufficient nuber of images for both "With Mask" and "Without Mask" classes to achieve good performance. 
 
-## Model 
+## 🧠 Model 
 
 The face mask detection model is based on a deep neural network architecture. It is trained using the TensorFlow and Keras frameworks.
 The model takes an input image and predicts whether the person in the image is wearing a face mask or not. 
 
-## Results 
+## 📊 Results 
 
 The face mask detection system achieves high accuracy on the test dataset. The performance may vary depending on the quality and diversity of the training dataset. It is recommended to train the model on the large and representative dataset for optimal results. 
 
-## Contributing
+## 🤝 Contributing
 
 Contributions to the Face Mask Detetor project are welcome and encouraged. If you want to contribute, please follow these steps: 
 
@@ -110,11 +108,11 @@ Contributions to the Face Mask Detetor project are welcome and encouraged. If yo
 
 Please ensure that your contributions align with the project's codeing standards, maintain code quality, and provide clear documentation when necessary. 
 
-## Licence
+## 📄 Licence
 
 The Face Mask Detector project is licensed under the [MIT License](/LICENSE). You are free to use, modify, and distribute the code for personal and commerical purposes. See the [LICENSE](/LICENSE) file for more details. 
 
-## Contact
+## ☎️ Contact
 
 If you have any questions, suggestions, or concerns about the Face Mask Detector project, please feel free to reach out to me. 
 
