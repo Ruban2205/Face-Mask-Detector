@@ -9,6 +9,12 @@ Given the trained COVID-19 face mask detector, we’ll proceed to implement two 
 
 This repository contains code and resources for a face mask detection system. This system is built using deep learning techniques and is capable of detecting whether a person is wearing a face marsk or not in real-time
 
+## Introduction 
+
+The Face Mask Detector is a computer vision system that can identify whether a person is wearing a facemask or not. It utilizes deep learning techniques to process images and make predictions in real-time. The system can be useful in various applications such as public safety, healthcare, and security. 
+
+This repository provides the code and resources necessary to train and deploy the facemask detection system. 
+
 ## Project Structure 
 
 The ```dataset/``` directory contains the data described in the “Our COVID-19 face mask detection dataset” section. Three image ```examples/``` are provided so that you can test the static image face mask detector.
@@ -18,6 +24,14 @@ Three python scripts are:
 - ```train_mask_detector.py```: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our ```mask_detector.model```. A training history ```plot.png``` containing accuracy/loss curves is also produced
 - ```detect_mask_image.py```: Performs face mask detection in static images
 - ```detect_mask_video.py```: Using your webcam, this script applies face mask detection to every frame in the stream
+
+## Features 
+
+- Real-time face mask detection 
+- High accurace and performance 
+- Easy to use and integrate into existing systems
+- Supports both image and video input 
+
 
 ## Languages and Tools used 
 
