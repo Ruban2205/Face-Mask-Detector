@@ -7,6 +7,8 @@ Given the trained COVID-19 face mask detector, we’ll proceed to implement two 
 - Detect COVID-19 face masks in images
 - Detect face masks in real-time video streams
 
+This repository contains code and resources for a face mask detection system. This system is built using deep learning techniques and is capable of detecting whether a person is wearing a face marsk or not in real-time
+
 ## Project Structure 
 
 The ```dataset/``` directory contains the data described in the “Our COVID-19 face mask detection dataset” section. Three image ```examples/``` are provided so that you can test the static image face mask detector.
